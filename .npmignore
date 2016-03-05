@@ -1,3 +1,7 @@
 /src
 /tasks
 gulpfile.js
+.idea
+node_modules
+parser
+tmp

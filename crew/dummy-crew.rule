@@ -1,0 +1,681 @@
+TopRule =
+    (george)
+        {_users='uid0001'}
+        {_fields='f'}
+    |
+    (george jetson)
+        {_users='uid0001'}
+        {_fields='fl'}
+    |
+    (george jetson dad)
+        {_users='uid0001'}
+        {_fields='fln'}
+    |
+    (george dad)
+        {_users='uid0001'}
+        {_fields='fn'}
+    |
+    (george dad jetson)
+        {_users='uid0001'}
+        {_fields='fnl'}
+    |
+    (jetson)
+        {_users='uid0001,uid0002,uid0003,uid0004,uid0005'}
+        {_fields='l,l,l,l,l'}
+    |
+    (jetson dad)
+        {_users='uid0001'}
+        {_fields='ln'}
+    |
+    (jetson dad george)
+        {_users='uid0001'}
+        {_fields='lnf'}
+    |
+    (jetson george)
+        {_users='uid0001'}
+        {_fields='lf'}
+    |
+    (jetson george dad)
+        {_users='uid0001'}
+        {_fields='lfn'}
+    |
+    (dad)
+        {_users='uid0001'}
+        {_fields='n'}
+    |
+    (dad george)
+        {_users='uid0001'}
+        {_fields='nf'}
+    |
+    (dad george jetson)
+        {_users='uid0001'}
+        {_fields='nfl'}
+    |
+    (dad jetson)
+        {_users='uid0001'}
+        {_fields='nl'}
+    |
+    (dad jetson george)
+        {_users='uid0001'}
+        {_fields='nlf'}
+    |
+    (jane)
+        {_users='uid0002'}
+        {_fields='f'}
+    |
+    (jane jetson)
+        {_users='uid0002'}
+        {_fields='fl'}
+    |
+    (jane jetson mom)
+        {_users='uid0002'}
+        {_fields='fln'}
+    |
+    (jane mom)
+        {_users='uid0002'}
+        {_fields='fn'}
+    |
+    (jane mom jetson)
+        {_users='uid0002'}
+        {_fields='fnl'}
+    |
+    (jetson mom)
+        {_users='uid0002'}
+        {_fields='ln'}
+    |
+    (jetson mom jane)
+        {_users='uid0002'}
+        {_fields='lnf'}
+    |
+    (jetson jane)
+        {_users='uid0002'}
+        {_fields='lf'}
+    |
+    (jetson jane mom)
+        {_users='uid0002'}
+        {_fields='lfn'}
+    |
+    (mom)
+        {_users='uid0002'}
+        {_fields='n'}
+    |
+    (mom jane)
+        {_users='uid0002'}
+        {_fields='nf'}
+    |
+    (mom jane jetson)
+        {_users='uid0002'}
+        {_fields='nfl'}
+    |
+    (mom jetson)
+        {_users='uid0002'}
+        {_fields='nl'}
+    |
+    (mom jetson jane)
+        {_users='uid0002'}
+        {_fields='nlf'}
+    |
+    (elroy)
+        {_users='uid0003'}
+        {_fields='f'}
+    |
+    (elroy john)
+        {_users='uid0003'}
+        {_fields='fm'}
+    |
+    (elroy john jetson)
+        {_users='uid0003'}
+        {_fields='fml'}
+    |
+    (elroy john jetson cool boy)
+        {_users='uid0003'}
+        {_fields='fmln'}
+    |
+    (elroy john cool boy)
+        {_users='uid0003'}
+        {_fields='fmn'}
+    |
+    (elroy john cool boy jetson)
+        {_users='uid0003'}
+        {_fields='fmnl'}
+    |
+    (elroy jetson)
+        {_users='uid0003'}
+        {_fields='fl'}
+    |
+    (elroy jetson cool boy)
+        {_users='uid0003'}
+        {_fields='fln'}
+    |
+    (elroy jetson cool boy john)
+        {_users='uid0003'}
+        {_fields='flnm'}
+    |
+    (elroy jetson john)
+        {_users='uid0003'}
+        {_fields='flm'}
+    |
+    (elroy jetson john cool boy)
+        {_users='uid0003'}
+        {_fields='flmn'}
+    |
+    (elroy cool boy)
+        {_users='uid0003'}
+        {_fields='fn'}
+    |
+    (elroy cool boy john)
+        {_users='uid0003'}
+        {_fields='fnm'}
+    |
+    (elroy cool boy john jetson)
+        {_users='uid0003'}
+        {_fields='fnml'}
+    |
+    (elroy cool boy jetson)
+        {_users='uid0003'}
+        {_fields='fnl'}
+    |
+    (elroy cool boy jetson john)
+        {_users='uid0003'}
+        {_fields='fnlm'}
+    |
+    (john)
+        {_users='uid0003'}
+        {_fields='m'}
+    |
+    (john jetson)
+        {_users='uid0003'}
+        {_fields='ml'}
+    |
+    (john jetson cool boy)
+        {_users='uid0003'}
+        {_fields='mln'}
+    |
+    (john jetson cool boy elroy)
+        {_users='uid0003'}
+        {_fields='mlnf'}
+    |
+    (john jetson elroy)
+        {_users='uid0003'}
+        {_fields='mlf'}
+    |
+    (john jetson elroy cool boy)
+        {_users='uid0003'}
+        {_fields='mlfn'}
+    |
+    (john cool boy)
+        {_users='uid0003'}
+        {_fields='mn'}
+    |
+    (john cool boy elroy)
+        {_users='uid0003'}
+        {_fields='mnf'}
+    |
+    (john cool boy elroy jetson)
+        {_users='uid0003'}
+        {_fields='mnfl'}
+    |
+    (john cool boy jetson)
+        {_users='uid0003'}
+        {_fields='mnl'}
+    |
+    (john cool boy jetson elroy)
+        {_users='uid0003'}
+        {_fields='mnlf'}
+    |
+    (john elroy)
+        {_users='uid0003'}
+        {_fields='mf'}
+    |
+    (john elroy jetson)
+        {_users='uid0003'}
+        {_fields='mfl'}
+    |
+    (john elroy jetson cool boy)
+        {_users='uid0003'}
+        {_fields='mfln'}
+    |
+    (john elroy cool boy)
+        {_users='uid0003'}
+        {_fields='mfn'}
+    |
+    (john elroy cool boy jetson)
+        {_users='uid0003'}
+        {_fields='mfnl'}
+    |
+    (jetson cool boy)
+        {_users='uid0003'}
+        {_fields='ln'}
+    |
+    (jetson cool boy elroy)
+        {_users='uid0003'}
+        {_fields='lnf'}
+    |
+    (jetson cool boy elroy john)
+        {_users='uid0003'}
+        {_fields='lnfm'}
+    |
+    (jetson cool boy john)
+        {_users='uid0003'}
+        {_fields='lnm'}
+    |
+    (jetson cool boy john elroy)
+        {_users='uid0003'}
+        {_fields='lnmf'}
+    |
+    (jetson elroy)
+        {_users='uid0003'}
+        {_fields='lf'}
+    |
+    (jetson elroy john)
+        {_users='uid0003'}
+        {_fields='lfm'}
+    |
+    (jetson elroy john cool boy)
+        {_users='uid0003'}
+        {_fields='lfmn'}
+    |
+    (jetson elroy cool boy)
+        {_users='uid0003'}
+        {_fields='lfn'}
+    |
+    (jetson elroy cool boy john)
+        {_users='uid0003'}
+        {_fields='lfnm'}
+    |
+    (jetson john)
+        {_users='uid0003'}
+        {_fields='lm'}
+    |
+    (jetson john cool boy)
+        {_users='uid0003'}
+        {_fields='lmn'}
+    |
+    (jetson john cool boy elroy)
+        {_users='uid0003'}
+        {_fields='lmnf'}
+    |
+    (jetson john elroy)
+        {_users='uid0003'}
+        {_fields='lmf'}
+    |
+    (jetson john elroy cool boy)
+        {_users='uid0003'}
+        {_fields='lmfn'}
+    |
+    (cool boy)
+        {_users='uid0003'}
+        {_fields='n'}
+    |
+    (cool boy elroy)
+        {_users='uid0003'}
+        {_fields='nf'}
+    |
+    (cool boy elroy john)
+        {_users='uid0003'}
+        {_fields='nfm'}
+    |
+    (cool boy elroy john jetson)
+        {_users='uid0003'}
+        {_fields='nfml'}
+    |
+    (cool boy elroy jetson)
+        {_users='uid0003'}
+        {_fields='nfl'}
+    |
+    (cool boy elroy jetson john)
+        {_users='uid0003'}
+        {_fields='nflm'}
+    |
+    (cool boy john)
+        {_users='uid0003'}
+        {_fields='nm'}
+    |
+    (cool boy john jetson)
+        {_users='uid0003'}
+        {_fields='nml'}
+    |
+    (cool boy john jetson elroy)
+        {_users='uid0003'}
+        {_fields='nmlf'}
+    |
+    (cool boy john elroy)
+        {_users='uid0003'}
+        {_fields='nmf'}
+    |
+    (cool boy john elroy jetson)
+        {_users='uid0003'}
+        {_fields='nmfl'}
+    |
+    (cool boy jetson)
+        {_users='uid0003'}
+        {_fields='nl'}
+    |
+    (cool boy jetson elroy)
+        {_users='uid0003'}
+        {_fields='nlf'}
+    |
+    (cool boy jetson elroy john)
+        {_users='uid0003'}
+        {_fields='nlfm'}
+    |
+    (cool boy jetson john)
+        {_users='uid0003'}
+        {_fields='nlm'}
+    |
+    (cool boy jetson john elroy)
+        {_users='uid0003'}
+        {_fields='nlmf'}
+    |
+    (judy)
+        {_users='uid0004'}
+        {_fields='f'}
+    |
+    (judy july)
+        {_users='uid0004'}
+        {_fields='fm'}
+    |
+    (judy july jetson)
+        {_users='uid0004'}
+        {_fields='fml'}
+    |
+    (judy july jetson cool lady)
+        {_users='uid0004'}
+        {_fields='fmln'}
+    |
+    (judy july cool lady)
+        {_users='uid0004'}
+        {_fields='fmn'}
+    |
+    (judy july cool lady jetson)
+        {_users='uid0004'}
+        {_fields='fmnl'}
+    |
+    (judy jetson)
+        {_users='uid0004'}
+        {_fields='fl'}
+    |
+    (judy jetson cool lady)
+        {_users='uid0004'}
+        {_fields='fln'}
+    |
+    (judy jetson cool lady july)
+        {_users='uid0004'}
+        {_fields='flnm'}
+    |
+    (judy jetson july)
+        {_users='uid0004'}
+        {_fields='flm'}
+    |
+    (judy jetson july cool lady)
+        {_users='uid0004'}
+        {_fields='flmn'}
+    |
+    (judy cool lady)
+        {_users='uid0004'}
+        {_fields='fn'}
+    |
+    (judy cool lady july)
+        {_users='uid0004'}
+        {_fields='fnm'}
+    |
+    (judy cool lady july jetson)
+        {_users='uid0004'}
+        {_fields='fnml'}
+    |
+    (judy cool lady jetson)
+        {_users='uid0004'}
+        {_fields='fnl'}
+    |
+    (judy cool lady jetson july)
+        {_users='uid0004'}
+        {_fields='fnlm'}
+    |
+    (july)
+        {_users='uid0004'}
+        {_fields='m'}
+    |
+    (july jetson)
+        {_users='uid0004'}
+        {_fields='ml'}
+    |
+    (july jetson cool lady)
+        {_users='uid0004'}
+        {_fields='mln'}
+    |
+    (july jetson cool lady judy)
+        {_users='uid0004'}
+        {_fields='mlnf'}
+    |
+    (july jetson judy)
+        {_users='uid0004'}
+        {_fields='mlf'}
+    |
+    (july jetson judy cool lady)
+        {_users='uid0004'}
+        {_fields='mlfn'}
+    |
+    (july cool lady)
+        {_users='uid0004'}
+        {_fields='mn'}
+    |
+    (july cool lady judy)
+        {_users='uid0004'}
+        {_fields='mnf'}
+    |
+    (july cool lady judy jetson)
+        {_users='uid0004'}
+        {_fields='mnfl'}
+    |
+    (july cool lady jetson)
+        {_users='uid0004'}
+        {_fields='mnl'}
+    |
+    (july cool lady jetson judy)
+        {_users='uid0004'}
+        {_fields='mnlf'}
+    |
+    (july judy)
+        {_users='uid0004'}
+        {_fields='mf'}
+    |
+    (july judy jetson)
+        {_users='uid0004'}
+        {_fields='mfl'}
+    |
+    (july judy jetson cool lady)
+        {_users='uid0004'}
+        {_fields='mfln'}
+    |
+    (july judy cool lady)
+        {_users='uid0004'}
+        {_fields='mfn'}
+    |
+    (july judy cool lady jetson)
+        {_users='uid0004'}
+        {_fields='mfnl'}
+    |
+    (jetson cool lady)
+        {_users='uid0004'}
+        {_fields='ln'}
+    |
+    (jetson cool lady judy)
+        {_users='uid0004'}
+        {_fields='lnf'}
+    |
+    (jetson cool lady judy july)
+        {_users='uid0004'}
+        {_fields='lnfm'}
+    |
+    (jetson cool lady july)
+        {_users='uid0004'}
+        {_fields='lnm'}
+    |
+    (jetson cool lady july judy)
+        {_users='uid0004'}
+        {_fields='lnmf'}
+    |
+    (jetson judy)
+        {_users='uid0004'}
+        {_fields='lf'}
+    |
+    (jetson judy july)
+        {_users='uid0004'}
+        {_fields='lfm'}
+    |
+    (jetson judy july cool lady)
+        {_users='uid0004'}
+        {_fields='lfmn'}
+    |
+    (jetson judy cool lady)
+        {_users='uid0004'}
+        {_fields='lfn'}
+    |
+    (jetson judy cool lady july)
+        {_users='uid0004'}
+        {_fields='lfnm'}
+    |
+    (jetson july)
+        {_users='uid0004'}
+        {_fields='lm'}
+    |
+    (jetson july cool lady)
+        {_users='uid0004'}
+        {_fields='lmn'}
+    |
+    (jetson july cool lady judy)
+        {_users='uid0004'}
+        {_fields='lmnf'}
+    |
+    (jetson july judy)
+        {_users='uid0004'}
+        {_fields='lmf'}
+    |
+    (jetson july judy cool lady)
+        {_users='uid0004'}
+        {_fields='lmfn'}
+    |
+    (cool lady)
+        {_users='uid0004'}
+        {_fields='n'}
+    |
+    (cool lady judy)
+        {_users='uid0004'}
+        {_fields='nf'}
+    |
+    (cool lady judy july)
+        {_users='uid0004'}
+        {_fields='nfm'}
+    |
+    (cool lady judy july jetson)
+        {_users='uid0004'}
+        {_fields='nfml'}
+    |
+    (cool lady judy jetson)
+        {_users='uid0004'}
+        {_fields='nfl'}
+    |
+    (cool lady judy jetson july)
+        {_users='uid0004'}
+        {_fields='nflm'}
+    |
+    (cool lady july)
+        {_users='uid0004'}
+        {_fields='nm'}
+    |
+    (cool lady july jetson)
+        {_users='uid0004'}
+        {_fields='nml'}
+    |
+    (cool lady july jetson judy)
+        {_users='uid0004'}
+        {_fields='nmlf'}
+    |
+    (cool lady july judy)
+        {_users='uid0004'}
+        {_fields='nmf'}
+    |
+    (cool lady july judy jetson)
+        {_users='uid0004'}
+        {_fields='nmfl'}
+    |
+    (cool lady jetson)
+        {_users='uid0004'}
+        {_fields='nl'}
+    |
+    (cool lady jetson judy)
+        {_users='uid0004'}
+        {_fields='nlf'}
+    |
+    (cool lady jetson judy july)
+        {_users='uid0004'}
+        {_fields='nlfm'}
+    |
+    (cool lady jetson july)
+        {_users='uid0004'}
+        {_fields='nlm'}
+    |
+    (cool lady jetson july judy)
+        {_users='uid0004'}
+        {_fields='nlmf'}
+    |
+    (rosie)
+        {_users='uid0005'}
+        {_fields='f'}
+    |
+    (rosie jetson)
+        {_users='uid0005'}
+        {_fields='fl'}
+    |
+    (rosie jetson robot)
+        {_users='uid0005'}
+        {_fields='fln'}
+    |
+    (rosie robot)
+        {_users='uid0005'}
+        {_fields='fn'}
+    |
+    (rosie robot jetson)
+        {_users='uid0005'}
+        {_fields='fnl'}
+    |
+    (jetson robot)
+        {_users='uid0005'}
+        {_fields='ln'}
+    |
+    (jetson robot rosie)
+        {_users='uid0005'}
+        {_fields='lnf'}
+    |
+    (jetson rosie)
+        {_users='uid0005'}
+        {_fields='lf'}
+    |
+    (jetson rosie robot)
+        {_users='uid0005'}
+        {_fields='lfn'}
+    |
+    (robot)
+        {_users='uid0005'}
+        {_fields='n'}
+    |
+    (robot rosie)
+        {_users='uid0005'}
+        {_fields='nf'}
+    |
+    (robot rosie jetson)
+        {_users='uid0005'}
+        {_fields='nfl'}
+    |
+    (robot jetson)
+        {_users='uid0005'}
+        {_fields='nl'}
+    |
+    (robot jetson rosie)
+        {_users='uid0005'}
+        {_fields='nlf'}
+    |
+    (XXXXXXXXXX)
+        {_users='null'}
+        {_fields='null'}
+;
