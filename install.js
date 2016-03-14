@@ -46,6 +46,9 @@ nugget(downloadUrl, opts, function (err) {
         }
         fs.copySync(path.join(cacheDir, targetDir), copyDir, {clobber: true});
         fs.remove(cacheDir, function() {});
+        var parserRoot = path.join(__dirname, 'parser', 'build', 'Release');
+        //get around v8 version red bug
+        fs.renameSync(path.join(parserRoot, 'jsjibonlu.node'), path.join(parserRoot, 'jsjibonlu.jibo'));
     });
 });
 
