@@ -5,6 +5,7 @@
             {'label': 'New Animation', 'command': 'jibo-sdk:new-animation-file'}
             {'label': 'New Behavior Tree', 'command': 'jibo-sdk:new-behavior-tree-file'}
             {'label': 'New Project', 'command': 'jibo-sdk:new-project'}
+            {'label': 'New Rule', 'command': 'jibo-sdk:new-rule-file'}
             {'type': 'separator'}
             {'label': 'Open Cheat Sheet', 'command': 'jibo-sdk:cheat-sheet'}
             {'label': 'Atom React Styleguide', 'command': 'atom-react:styleguide'}
@@ -24,6 +25,7 @@
             'submenu': [
                 {'label': 'New Animation', 'command': 'jibo-sdk:new-animation-file'}
                 {'label': 'New Behavior Tree', 'command': 'jibo-sdk:new-behavior-tree-file'}
+                {'label': 'New Rule', 'command': 'jibo-sdk:new-rule-file'}
                 {'label': 'New Project', 'command': 'jibo-sdk:new-project'}
                 {'type': 'separator'}
                 {'label': 'Open as JSON', 'command': 'jibo-sdk:open-as-json'}
