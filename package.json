@@ -1,7 +1,7 @@
 {
   "name": "jibo-sdk",
   "main": "./index.js",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Jibo's Robot plugin.",
   "scripts": {
     "postinstall": "node install.js"
