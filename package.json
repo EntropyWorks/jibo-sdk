@@ -44,5 +44,6 @@
     "vis": "^4.2.0"
   },
   "license": "SEE LICENSE IN LICENSE.txt",
-  "author": "Jibo, Inc. <sdkearlyaccess@jibo.com>"
+  "author": "Jibo, Inc. <sdkearlyaccess@jibo.com>",
+  "repository": "https://github.com/jiborobot/atom-audio"
 }
