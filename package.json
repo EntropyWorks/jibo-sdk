@@ -1,11 +1,7 @@
 {
   "name": "jibo-sdk",
   "main": "./index.js",
-<<<<<<< HEAD
   "version": "1.6.1",
-=======
-  "version": "1.6.0",
->>>>>>> 1b1e271f9bf9502a361ff91712b8d471039a00bc
   "description": "Jibo's Robot plugin.",
   "scripts": {
     "postinstall": "node install.js"
