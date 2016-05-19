@@ -45,9 +45,5 @@
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "author": "Jibo, Inc. <sdkearlyaccess@jibo.com>",
-<<<<<<< HEAD
   "repository": "https://github.com/jiborobot/jibo-sdk"
-=======
-  "repository": "https://github.com/jiborobot/atom-audio"
->>>>>>> 1b1e271f9bf9502a361ff91712b8d471039a00bc
 }
