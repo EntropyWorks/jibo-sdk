@@ -1,7 +1,7 @@
 {
   "name": "jibo-sdk",
   "main": "./index.js",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Jibo SDK",
   "scripts": {
     "postinstall": "node install.js"
@@ -9,9 +9,7 @@
   "engines": {
     "atom": ">0.170.0"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "license": "SEE LICENSE IN LICENSE.txt",
   "author": "Jibo Inc. <devsupport@jibo.com>",
   "repository": "https://github.com/jiborobot/jibo-sdk"
