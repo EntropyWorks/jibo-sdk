@@ -4,7 +4,6 @@
   "version": "1.7.3",
   "description": "Jibo SDK",
   "scripts": {
-    "postinstall": "node install.js"
   },
   "engines": {
     "atom": ">0.170.0"
