@@ -1,10 +1,9 @@
 {
   "name": "jibo-sdk",
   "main": "./index.js",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "Jibo SDK",
-  "scripts": {
-  },
+  "scripts": {},
   "engines": {
     "atom": ">0.170.0"
   },
